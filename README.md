@@ -4,13 +4,10 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+**Perbedaan Ephemeral State Management & App State Management**
+Disini Ephemeral State Management menyimpan data terbatas hanya pada widget itu saja(Lokal), Sedangkan App State Management memungkinan agar data widget manapun dapat diakses dan diperbarui dari manapun(Global).
 
-A few resources to get you started if this is your first Flutter project:
+**Kelebihan App State Management**
+- Kelebihan yang pertama yaitu App State Management memudahkan dalam flexibilitas Widget dimana data yang digunakan bisa lebih konsisten lagi.
+- Yang kedua dalam Aplikasi Flutter yang kompleks dapat membantu ketika ada banyak data yang ingin diakses atau diperbarui lebih mudah untuk diubah sehingga aplikasi dapat berjalan lebih efisien
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
